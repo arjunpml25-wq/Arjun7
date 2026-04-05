@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arjun</title>
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333333;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #2c3e50;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #1abc9c;
+      color: white;
+    }
+
+    /* Header Section */
+    header {
+      text-align: center;
+      padding: 40px;
+      background: linear-gradient(to right, #1abc9c, #16a085);
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Main Content Layout */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .profile {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      border: 2px solid #1abc9c;
+      margin: 10px;
+      background-color: #ffffff;
+      border-radius: 8px;
+    }
+    .profile img {
+      max-width: 100%;
+      border-radius: 8px;
+      border: 3px solid #16a085;
+    }
+    .profile h2 {
+      color: #16a085;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#life">Life</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#quotes">Quotes</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>Arjun Paliwal</h1>
+    <p>Student of the  year| Visionary Leader | People's President</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="profile" id="life">
+      <h2>Early Life</h2>
+      <p>Born in small town in Jodhpur Rajastan</p>
+    </div>
+
+    <div class="profile" id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Helped neeedy and poor people.</li>
+        <li>Ex Neet student.</li>
+        <li>Lokesh sir favourite Student</li>
+      </ul>
+    </div>
+
+    <div class="profile" id="quotes">
+      <h2>Inspirational Quotes</h2>
+      <blockquote>
+        "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+      </blockquote>
+      <blockquote>
+        "You have to dream before your dreams can come true."
+      </blockquote>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Ram Ram Sa</p>
+  </footer>
+
+</body>
+</html>
